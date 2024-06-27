@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "test": "deno test --allow-read --allow-env"
+  },
+  "imports": {
+    "@std/dotenv": "jsr:@std/dotenv@^0.224.1"
+  }
+}
